@@ -1,5 +1,12 @@
-# Merge Overlapping Intervals
-# Write a function that takes in a non-empty array of arbitrary integers and merges any overlapping invervals
+"""
+Merge Overlapping Intervals - Medium
+
+Write a function that takes in a non-empty array of arbitrary integers and merges any overlapping invervals
+
+
+Optimal Time Complexity: 
+Optimal Space Complexity: 
+"""
 
 def merge_intervals(intervals):
     intervals = sorted(intervals)

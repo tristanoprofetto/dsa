@@ -1,6 +1,12 @@
-# Insertion Sort - Easy
-# Write a function that takes in an unordered array of integers and returns a sorted array
-# The sorted array should be obtained by implementing the insertion sort algorithm
+"""
+Insertion Sort - Easy
+
+Write a function that takes in an unordered array of integers and returns a sorted array
+The sorted array should be obtained by implementing the insertion sort algorithm
+
+Optimal Time Complexity: O(n)
+Optimal Space Complexity: O(1)
+"""
 
 def insertion_sort(array):
     result = [array[0]]
@@ -14,8 +20,6 @@ def insertion_sort(array):
             result.insert(j+1, array[i])
     return result
 
-# Optimal Time Complexity: O(n)
-# Optimal Space Complexity: O(1)
 
 
 if __name__ == "__main__":

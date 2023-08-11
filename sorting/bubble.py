@@ -1,6 +1,12 @@
-# Bubble Sort - Easy
-# Write a function that takes in an unordered array of integers and returns a sorted array
-# The sorted array should be obtained by implementing the Bubble sort algorithm
+"""
+Bubble Sort - Easy
+
+Write a function that takes in an unordered array of integers and returns a sorted array
+The sorted array should be obtained by implementing the Bubble sort algorithm
+
+Optimal Time Complexity: O(n)
+Optimal Space Complexity: O(1)
+"""
 
 def bubble_sort(array):
     is_sorted = False 
@@ -13,8 +19,6 @@ def bubble_sort(array):
 
     return array
 
-# Optimal Time Complexity: O(n)
-# Optimal Space Complexity: O(1)
 
 if __name__ == "__main__":
     array = [8, 5, 2, 9, 5 ,7]
