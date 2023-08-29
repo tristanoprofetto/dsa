@@ -66,7 +66,40 @@ Time complexities of certain hash table operations:
 * Removing k/v pair: O(1)
 * Lookup a key: O(1)
 
-### Trees
 
 ### Graphs
+
+
+### Trees
+A data structure that consists of nodes, each with a value and a point to a child node.
+Recursively these forms subtrees in the given tree.
+* Root Node: the first node in the tree
+* Leaf Nodes: node without any child nodes
+* Branches: the path from the root of a tree to a corresponding leaf
+
+##### Binary Tree
+A tree where each node has up to two child-nodes.
+Many of its operations have logarithmic time complexity
+
+* Perfect Binary Tree: when every node has exactly two child-nodes, and all have the same depth
+
+##### Heaps
+A specialized tree that is a complete binary tree which satisfies the heap properties.
+Generally Heaps can be of two types:
+1. Max-Heap: the root value must be greater than all its child-nodes
+2. Min-Heap: root value but be smaller than all its child-nodes.
+
+Operations on Heaps:
+* Insertion: O(log N)
+* Deletion: O(log N)
+
+##### Tries
+A type of k-ary search tree used for storing and searching a specific key from a set. 
+Often used for storing strings over an alphabet, used in spell checking programs
+
+Advantages of Tries:
+1. In tries the keys are searched using common prefixes. Hence it is faster. The lookup of keys depends upon the height in case of binary search tree. 
+2. Tries take less space when they contain a large number of short strings. As nodes are shared between the keys.
+3. Tries help with longest prefix matching, when we want to find the key.
+
 
