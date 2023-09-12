@@ -1,5 +1,5 @@
 # Data Structures and Algorithms in Python
-The following repository provides solutions for DSA problems ranging from easy to very hard
+The following repository provides solutions for DSA problems ranging from easy to very hard..
 
 ## Analyzing Data Structures and Algoriths
 * Complexity Analysis: the process of determining how efficient an algorithm is with respect to the time it takes to run the program or how much memory space is used per unit of input.
