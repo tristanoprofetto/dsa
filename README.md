@@ -58,6 +58,8 @@ Time complexities of certain queue operations:
 * Dequeueing an element: O(1)
 * Searching for an element: O(n)
 
+![queue](https://media.geeksforgeeks.org/wp-content/uploads/20220805131014/fifo.png)
+
 ### Hash Tables
 Provides fast insertion, deletion, and lookup of {key: value} pairs
 Under the hood hash tables use a dynamic array of linked lists to efficiently store k/v pairs
@@ -68,20 +70,54 @@ Time complexities of certain hash table operations:
 
 
 ### Graphs
+A collection of nodes (vertices) connected by edges (directed/undirected)
+* Graph Cycle: when three or more vertices are connected
+There are several types of graphs...
 
+##### Acyclic Graph
+A graph that has no cycles
+
+##### Cyclic Graph
+A graph that has atleast one cycle
+
+##### Directed Graph
+A graph whos edges are directed, these edges can only be traversed in one direction
+
+##### Undirected Graph
+A graph whose edges are undirected
+
+There are two primary methods for traversing a graph:
+* Depth-First Search (DFS): suitable for finding the longest path from the root node (use Queue)
+* Breath-First Search (BFS): suitable for finding the shortest path to the starting node (use Stack)
+
+![BFSDFS](https://open4tech.com/wp-content/uploads/2019/01/BFS-DFS.png)
 
 ### Trees
+A directed graph structure that is rooted with child nodes.
 A data structure that consists of nodes, each with a value and a point to a child node.
 Recursively these forms subtrees in the given tree.
 * Root Node: the first node in the tree
 * Leaf Nodes: node without any child nodes
 * Branches: the path from the root of a tree to a corresponding leaf
 
+Methods for traversing trees:
+* In-Order Traversal
+* Pre-Order Traversal
+* Post-Order Traversal
+
+There are several types of trees in the context of data structures...
+
 ##### Binary Tree
 A tree where each node has up to two child-nodes.
-Many of its operations have logarithmic time complexity
+Many of its operations have logarithmic time complexity.
 
 * Perfect Binary Tree: when every node has exactly two child-nodes, and all have the same depth
+* Binary Search 
+
+##### Binary Search Trees
+A special case of binary trees where each left child node is less than its parent, and each right child node is strictly greater than or equal to its parent.
+
+##### K-Ary Tree
 
 ##### Heaps
 A specialized tree that is a complete binary tree which satisfies the heap properties.
