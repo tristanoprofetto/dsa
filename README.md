@@ -1,7 +1,7 @@
 # Data Structures and Algorithms in Python
-The following repository provides solutions for DSA problems ranging from easy to very hard..
+The following repository provides solutions for DSA problems ranging from easy to very hard...
 
-## Analyzing Data Structures and Algoriths
+## Analyzing Data Structures and Algorithms
 * Complexity Analysis: the process of determining how efficient an algorithm is with respect to the time it takes to run the program or how much memory space is used per unit of input.
 * Time Complexity: measures how fast an algorithm runs 
 * Space Complexity: measures how much auxilary memory is used when running an algorithm.
@@ -14,6 +14,8 @@ The following repository provides solutions for DSA problems ranging from easy t
 * * Cubic: O(n<sup>3</sup>)
 * * Exponential: O(2<sup>n</sup>)
 * * Factorial: O(n!)
+
+![chart](https://i.ytimg.com/vi/47GRtdHOKMg/maxresdefault.jpg)
 
 ### Memory
 * Bit: a binary digit (0 or 1) represents a state
@@ -42,6 +44,8 @@ There are 4 common types of linked lists
 3. Circular Linked List
 4. Doubly Circular Linked List
 
+![linked-list](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/Linkedlist.png)
+
 ### Stacks
 Array-like structure whos elements follow LIFO (last in first out)
 Stacks are typically implemented using dynamic arrays or linked-lists
@@ -49,6 +53,8 @@ Time complexities of certain stack operations:
 * Pushing an element onto the stack: O(1)
 * Popping an element from the stack: O(1)
 * Searching for an element in the stack: O(n)
+
+![stack](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221219100314/stack.drawio2.png)
 
 ### Queues
 Array-like structue whos elements follow FIFO
@@ -104,6 +110,8 @@ Methods for traversing trees:
 * In-Order Traversal
 * Pre-Order Traversal
 * Post-Order Traversal
+
+![traversals](https://media.geeksforgeeks.org/wp-content/uploads/20230623123129/traversal.png)
 
 There are several types of trees in the context of data structures...
 

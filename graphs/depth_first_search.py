@@ -6,7 +6,6 @@ Given a Node class write the method that implements depth-first search.
 
 Optimal time complexity: O()
 Optimal space complexity: O()
-
 """
 
 class Node:
